@@ -1,0 +1,150 @@
+a.linksub:link{text-decoration: none; color: purple;}
+a.botomsub:link{text-decoration: none;}
+
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ededed;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#9259a8 0%,
+		#7b2380);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#9259a8),
+		to(#7b2380));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #771380;
+	-moz-box-shadow:
+		0px 1px 3px rgba(15,2,15,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(15,2,15,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(15,2,15,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+
+
+
+
+.cabecalho{position: absolute;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    color: purple;
+    font-style: italic;
+    font-family: "Comic Sans MS";
+    border-bottom-style: inset;
+    background-color: oldlace;
+}
+
+.informacoes h2{
+    color: mediumslateblue;
+}
+.informacoes td{
+    color: mediumslateblue;
+}
+.informacoes th{
+    color: mediumslateblue;
+}
+.informacoes ul{
+    color: mediumslateblue;
+}
+
+.formulario p{
+    color: mediumslateblue;
+}
+
+
+.kim{
+    float: left;
+    height: 100%;
+    width: 47%;
+    text-align: left;
+    
+
+}
+.kim img{
+    max-width: 300px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+
+}
+
+.kim h2{
+    color: mediumslateblue;
+}
+ .kim p{
+     color: mediumslateblue;
+        text-align: justify;
+ }
+
+ .pacato {
+     float: right;;
+    height: 100%;
+    width: 47%;
+    text-align: right;
+ }
+ .pacato img{
+    max-width: 300px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+
+}
+
+.pacato h2{
+    color: mediumslateblue;
+}
+ .pacato p{
+     color: mediumslateblue;
+        text-align: justify;
+ }
+
+ .zebob {
+    float: left;;
+   height: 100%;
+   width: 47%;
+   text-align: left;
+}
+.zebob img{
+   max-width: 300px;
+   max-height: 250px;
+   width: auto;
+   height: auto;
+
+}
+
+.zebob h2{
+   color: mediumslateblue;
+}
+.zebob p{
+    color: mediumslateblue;
+       text-align: justify;
+}
+
+.menu {
+    float: right;;
+   height: 100%;
+   width: 47%;
+   text-align: right;
+}
+
+.menu h2{
+   color: mediumslateblue;
+}
+.menu p{
+    color: mediumslateblue;
+       text-align: justify;
+}
+
