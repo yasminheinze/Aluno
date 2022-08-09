@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: yasminheinze-pets
+spec:
+  selector:
+    matchLabels:
+      app: yasminheinze-pets
+  replicas: 2 
+  template:
+    metadata:
+      labels:
+        app: yasminheinze-pets
+    spec:
+      containers:
+      - name: pets-container
+        image: yasminheinze/pets:latest
+        ports:
+        - containerPort: 80
