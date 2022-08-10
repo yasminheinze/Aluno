@@ -1,3 +1,3 @@
 # Aluno
-Respostas das atividaded Rodrigo GB Desenvolve
+Respostas das atividade Rodrigo GB Desenvolve
 
