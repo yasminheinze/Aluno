@@ -1,0 +1,17 @@
+name: Pipeline do Projeto
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 O trabalho foi acionado automaticamente por um ${{ github.event_name }} evento."
+      - run: echo "🐧 Este trabalho está sendo executado em um ${{ runner.os }} servidor hospedado pelo GitHub!"
+      - run: echo "🔎 O nome da sua branch é ${{ github.ref }} e seu repositório é ${{ github.repository }}."
+      - name: Confira o código do repositorio
+        uses: actions/checkout@v3
+      - run: echo "💡 O ${{ github.repository }} repositório foi clonado para o runner."
+      - run: echo "🖥️ O fluxo de trabalho agora está pronto para testar seu código no executor."
+      - name: Listar arquivos no repositorio
+        run: |
+          ls ${{ github.workspace }}
+      - run: echo "🍏 O status deste trabalho é ${{ job.status }}."
