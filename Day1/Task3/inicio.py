@@ -7,7 +7,7 @@ def hello():
   valores = ["sol","chuva","vento","noite","lua"]
   print("Oi")
   loop(valores)
-  wFile('/dev/null')
+  wFile('teste.txt')
 
 def loop(var1):
   for i in var1:
